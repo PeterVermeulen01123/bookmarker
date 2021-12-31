@@ -94,6 +94,13 @@ function fetchBookmarks() {
                 name: 'Bookmarker',
                 url: 'https://petervermeulen01123.github.io/bookmarker/',
             },
+            {
+                name: 'ChuckleBot',
+                url: 'https://petervermeulen01123.github.io/joke-teller-bot/',
+            },
+
+
+            
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
