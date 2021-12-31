@@ -91,8 +91,8 @@ function fetchBookmarks() {
         // create bookmarks array in localStorage
         bookmarks = [
             {
-                name: 'Jacko Design',
-                url: 'https://jacinto.design',
+                name: 'Bookmarker',
+                url: 'https://petervermeulen01123.github.io/bookmarker/',
             },
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
